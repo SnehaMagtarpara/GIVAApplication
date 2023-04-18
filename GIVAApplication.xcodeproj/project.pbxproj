@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3579C1D29ED1F2100FFC0B6 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3579C1C29ED1F2100FFC0B6 /* CreateAccount.swift */; };
+		D358238629E9447000809DD2 /* RequestOtp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358238529E9447000809DD2 /* RequestOtp.swift */; };
+		D358238829E94AD700809DD2 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D358238729E94AD700809DD2 /* MainPage.swift */; };
 		D3C5A48829E7E5F200FFE53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A48729E7E5F200FFE53C /* AppDelegate.swift */; };
 		D3C5A48A29E7E5F200FFE53C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A48929E7E5F200FFE53C /* SceneDelegate.swift */; };
 		D3C5A48C29E7E5F200FFE53C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A48B29E7E5F200FFE53C /* ViewController.swift */; };
@@ -14,9 +17,16 @@
 		D3C5A49229E7E5F200FFE53C /* GIVAApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A49029E7E5F200FFE53C /* GIVAApplication.xcdatamodeld */; };
 		D3C5A49429E7E5F400FFE53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C5A49329E7E5F400FFE53C /* Assets.xcassets */; };
 		D3C5A49729E7E5F400FFE53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C5A49529E7E5F400FFE53C /* LaunchScreen.storyboard */; };
+		D3C5A4A129E7E7EF00FFE53C /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A4A029E7E7EF00FFE53C /* MyCollectionViewCell.swift */; };
+		D3C5A4A329E7F15A00FFE53C /* LogInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5A4A229E7F15A00FFE53C /* LogInPage.swift */; };
+		D3FAA2FF29EE6BA4005B9028 /* DPOTPView in Frameworks */ = {isa = PBXBuildFile; productRef = D3FAA2FE29EE6BA4005B9028 /* DPOTPView */; };
+		D3FAA30129EE6C16005B9028 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FAA30029EE6C16005B9028 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3579C1C29ED1F2100FFC0B6 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		D358238529E9447000809DD2 /* RequestOtp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestOtp.swift; sourceTree = "<group>"; };
+		D358238729E94AD700809DD2 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		D3C5A48429E7E5F200FFE53C /* GIVAApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIVAApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C5A48729E7E5F200FFE53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3C5A48929E7E5F200FFE53C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +36,9 @@
 		D3C5A49329E7E5F400FFE53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3C5A49629E7E5F400FFE53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C5A49829E7E5F400FFE53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C5A4A029E7E7EF00FFE53C /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		D3C5A4A229E7F15A00FFE53C /* LogInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPage.swift; sourceTree = "<group>"; };
+		D3FAA30029EE6C16005B9028 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FAA2FF29EE6BA4005B9028 /* DPOTPView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +76,12 @@
 				D3C5A48929E7E5F200FFE53C /* SceneDelegate.swift */,
 				D3C5A48B29E7E5F200FFE53C /* ViewController.swift */,
 				D3C5A48D29E7E5F200FFE53C /* Main.storyboard */,
+				D3FAA30029EE6C16005B9028 /* File.swift */,
+				D3579C1C29ED1F2100FFC0B6 /* CreateAccount.swift */,
+				D358238729E94AD700809DD2 /* MainPage.swift */,
+				D358238529E9447000809DD2 /* RequestOtp.swift */,
+				D3C5A4A229E7F15A00FFE53C /* LogInPage.swift */,
+				D3C5A4A029E7E7EF00FFE53C /* MyCollectionViewCell.swift */,
 				D3C5A49329E7E5F400FFE53C /* Assets.xcassets */,
 				D3C5A49529E7E5F400FFE53C /* LaunchScreen.storyboard */,
 				D3C5A49829E7E5F400FFE53C /* Info.plist */,
@@ -86,6 +106,9 @@
 			dependencies = (
 			);
 			name = GIVAApplication;
+			packageProductDependencies = (
+				D3FAA2FE29EE6BA4005B9028 /* DPOTPView */,
+			);
 			productName = GIVAApplication;
 			productReference = D3C5A48429E7E5F200FFE53C /* GIVAApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +137,9 @@
 				Base,
 			);
 			mainGroup = D3C5A47B29E7E5F200FFE53C;
+			packageReferences = (
+				D3FAA2FD29EE6BA4005B9028 /* XCRemoteSwiftPackageReference "DPOTPView" */,
+			);
 			productRefGroup = D3C5A48529E7E5F200FFE53C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D358238629E9447000809DD2 /* RequestOtp.swift in Sources */,
 				D3C5A48C29E7E5F200FFE53C /* ViewController.swift in Sources */,
+				D3C5A4A129E7E7EF00FFE53C /* MyCollectionViewCell.swift in Sources */,
+				D358238829E94AD700809DD2 /* MainPage.swift in Sources */,
 				D3C5A48829E7E5F200FFE53C /* AppDelegate.swift in Sources */,
+				D3FAA30129EE6C16005B9028 /* File.swift in Sources */,
 				D3C5A48A29E7E5F200FFE53C /* SceneDelegate.swift in Sources */,
+				D3C5A4A329E7F15A00FFE53C /* LogInPage.swift in Sources */,
+				D3579C1D29ED1F2100FFC0B6 /* CreateAccount.swift in Sources */,
 				D3C5A49229E7E5F200FFE53C /* GIVAApplication.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3FAA2FD29EE6BA4005B9028 /* XCRemoteSwiftPackageReference "DPOTPView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Datt1994/DPOTPView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3FAA2FE29EE6BA4005B9028 /* DPOTPView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FAA2FD29EE6BA4005B9028 /* XCRemoteSwiftPackageReference "DPOTPView" */;
+			productName = DPOTPView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		D3C5A49029E7E5F200FFE53C /* GIVAApplication.xcdatamodeld */ = {
